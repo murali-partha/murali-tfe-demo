@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Specify your desired AWS region
+  region = "us-west-2"  # Specify your desired AWS region
 }
 
 resource "time_sleep" "wait_60_seconds" {
